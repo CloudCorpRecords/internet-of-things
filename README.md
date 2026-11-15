@@ -18,9 +18,9 @@ You cannot patch trust into a sprawl of thousands of unrelated tools one vendor 
 
 I rebuilt the tool layer from scratch. One builder, one standard, one source of truth, everything open source.
 
-The count, stated the way I state every count: as of November 1, 2026, the rebuild program has produced 1,004 builds. One of them, a build called beytsearch, turned out to rest on a fabricated source spec. It was invalidated and excluded, and it will never publish. That leaves 1,003 tools built and validated, each one checked for parity against the tool it replaces, each one with its tests run and its gaps written down in its own build report, including the gaps that make us look bad.
+The count, stated the way I state every count: as of November 10, 2026, the rebuild program has produced 1,014 builds. One of them, a build called beytsearch, turned out to rest on a fabricated source spec. It was invalidated and excluded, and it will never publish. That leaves 1,013 tools built and validated, each one checked for parity against the tool it replaces, each one with its tests run and its gaps written down in its own build report, including the gaps that make us look bad.
 
-Published is a separate number, and I keep it separate on purpose. As of November 1, 2026, 51 of those tools have completed the full release pipeline and been verified live on every public surface: source repository and release on GitHub, package on npm, container image on GHCR, and an active, latest entry in the MCP Registry, with a final verification pass on top. The rest are built and validated and waiting their turn on the publish train. I would rather show you a small number that is true than a big number that is a hope. The train is running, the scoreboard below is public, and the published count moves only when a read back from the public surfaces says it may.
+Published is a separate number, and I keep it separate on purpose. As of November 10, 2026, 393 of those tools have completed the full release pipeline and been verified live on every public surface: source repository and release on GitHub, package on npm, container image on GHCR, and an active, latest entry in the MCP Registry, with a final verification pass on top. The other 620 are built and validated and waiting their turn on the publish train. On November 1, 2026, the verified count was 51. Publish waves 20 to 27 moved it to 393. I would rather show you a small number that is true than a big number that is a hope. The train is running, the scoreboard below is public, and the published count moves only when a read back from the public surfaces says it may.
 
 Around the fleet sits the verification stack, because a claim you cannot check is just marketing:
 
@@ -40,7 +40,7 @@ And the source of truth does not have to stay a person. Succession is a designed
 
 ### What I stake on this
 
-I have dealt straight my whole life, through years when money was hard and life was harder, and I am not starting now. I put my name on this project, and I put my faith on it too, plainly: I believe trust is something you practice in the open, with receipts, especially when nobody would know if you cut the corner. I am a builder, not a guru. There is no course, no secret system, nothing to buy from me here. There are tools, tests, and a scoreboard, and you are invited to check all three, and to check the man the same way: my build record is public, my contributions are public (160 pull requests authored into other people's projects as of November 1, 2026, 70 of them merged), and people who have worked with me can vouch or not, in the open.
+I have dealt straight my whole life, through years when money was hard and life was harder, and I am not starting now. I put my name on this project, and I put my faith on it too, plainly: I believe trust is something you practice in the open, with receipts, especially when nobody would know if you cut the corner. I am a builder, not a guru. There is no course, no secret system, nothing to buy from me here. There are tools, tests, and a scoreboard, and you are invited to check all three, and to check the man the same way: my build record is public, my contributions are public (193 pull requests authored into external projects as of November 15, 2026, 61 of them merged), and people who have worked with me can vouch or not, in the open.
 
 ### Where it stands
 
@@ -50,4 +50,4 @@ Verify, do not trust. Then use the tools.
 
 Rene Turcios
 San Francisco
-Numbers as of November 1, 2026
+Updated November 15, 2026. Fleet counts as of November 10, 2026.
