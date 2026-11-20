@@ -1,12 +1,12 @@
 # Verify It Yourself: The Internet of Things Fleet in One Page
 
-For the skeptic. Everything below can be checked from a laptop in an afternoon, using only public surfaces. Fleet counts as of November 10, 2026, updated November 15, 2026.
+For the skeptic. Everything below can be checked from a laptop in an afternoon, using only public surfaces. Fleet counts as of November 16, 2026, updated November 20, 2026.
 
 ## The claim
 
-1,013 tools built and parity validated. 393 of them published and verified live on every public surface. One builder. Everything open source.
+1,013 tools built and parity validated. 482 of them published and verified live on every public surface. One builder. Everything open source.
 
-On November 1, 2026, the verified published count was 51. Publish waves 20 to 27 moved it to 393 by November 10, 2026.
+On November 1, 2026, the verified published count was 51. Publish waves 20 to 27 moved it to 393 by November 10, 2026, and waves 28 and 29 plus a single unit publish moved it to 482 by November 16, 2026.
 
 ## Where things live
 
@@ -32,7 +32,7 @@ Read back only. A tool joins the published count when its release pipeline finis
 
 ## What is NOT claimed yet
 
-- 620 of the 1,013 validated tools are not yet published. They are built, tested, and parity checked, and their public claim today is exactly that and nothing more. The publish train works the queue in scoreboard order; the count on the scoreboard moves as waves verify, and a further publish wave is in progress.
+- 531 of the 1,013 validated tools are not yet published. They are built, tested, and parity checked, and their public claim today is exactly that and nothing more. The publish train works the queue in scoreboard order; the count on the scoreboard moves as waves verify, and a further publish wave is in progress.
 - One build, beytsearch, was invalidated after its source spec proved fabricated. It is excluded from every count above and will never publish. It stays in the record because deleting it would be a lie of omission.
 - Ten reserve builds held at the 1,000 freeze were built in the factory shape and counted in on November 2, 2026. They are part of the 1,013 built and validated total.
 - The original fleet has one deliberate exception: 36 of its 37 packages are live on npm; the remaining one is excluded from npm by design (a token wall), with its registry and container surfaces verified instead.

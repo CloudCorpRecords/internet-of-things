@@ -18,9 +18,9 @@ You cannot patch trust into a sprawl of thousands of unrelated tools one vendor 
 
 I rebuilt the tool layer from scratch. One builder, one standard, one source of truth, everything open source.
 
-The count, stated the way I state every count: as of November 10, 2026, the rebuild program has produced 1,014 builds. One of them, a build called beytsearch, turned out to rest on a fabricated source spec. It was invalidated and excluded, and it will never publish. That leaves 1,013 tools built and validated, each one checked for parity against the tool it replaces, each one with its tests run and its gaps written down in its own build report, including the gaps that make us look bad.
+The count, stated the way I state every count: as of November 16, 2026, the rebuild program has produced 1,014 builds. One of them, a build called beytsearch, turned out to rest on a fabricated source spec. It was invalidated and excluded, and it will never publish. That leaves 1,013 tools built and validated, each one checked for parity against the tool it replaces, each one with its tests run and its gaps written down in its own build report, including the gaps that make us look bad.
 
-Published is a separate number, and I keep it separate on purpose. As of November 10, 2026, 393 of those tools have completed the full release pipeline and been verified live on every public surface: source repository and release on GitHub, package on npm, container image on GHCR, and an active, latest entry in the MCP Registry, with a final verification pass on top. The other 620 are built and validated and waiting their turn on the publish train. On November 1, 2026, the verified count was 51. Publish waves 20 to 27 moved it to 393. I would rather show you a small number that is true than a big number that is a hope. The train is running, the scoreboard below is public, and the published count moves only when a read back from the public surfaces says it may.
+Published is a separate number, and I keep it separate on purpose. As of November 16, 2026, 482 of those tools have completed the full release pipeline and been verified live on every public surface: source repository and release on GitHub, package on npm, container image on GHCR, and an active, latest entry in the MCP Registry, with a final verification pass on top. The other 531 are built and validated and waiting their turn on the publish train. On November 1, 2026, the verified count was 51. Publish waves 20 to 27 moved it to 393, and waves 28 and 29 plus a single unit publish moved it to 482. I would rather show you a small number that is true than a big number that is a hope. The train is running, the scoreboard below is public, and the published count moves only when a read back from the public surfaces says it may.
 
 Around the fleet sits the verification stack, because a claim you cannot check is just marketing:
 
@@ -50,4 +50,4 @@ Verify, do not trust. Then use the tools.
 
 Rene Turcios
 San Francisco
-Updated November 15, 2026. Fleet counts as of November 10, 2026.
+Updated November 20, 2026. Fleet counts as of November 16, 2026.

@@ -2,7 +2,7 @@
 
 ## 1,000 open tools, one builder, all verifiable
 
-Numbers as of November 10, 2026, updated November 15, 2026. Every figure on this page is regenerated from the program's own records, listed under Counting Rules below. The published count moves only on verified read back from the public surfaces, never on build counts.
+Numbers as of November 16, 2026, updated November 20, 2026. Every figure on this page is regenerated from the program's own records, listed under Counting Rules below. The published count moves only on verified read back from the public surfaces, never on build counts.
 
 ## The three numbers that matter
 
@@ -10,23 +10,23 @@ Numbers as of November 10, 2026, updated November 15, 2026. Every figure on this
 |---|---|
 | Tools built | 1,013 |
 | Tools parity validated | 1,013 |
-| Tools published and verified live | 393 |
+| Tools published and verified live | 482 |
 
-Built, validated, and published are three separate numbers on purpose. The gap between the first two and the third is the publish train's remaining work: 620 tools. On November 1, 2026, the verified count was 51. Publish waves 20 to 27 moved it to 393. A further publish wave is in progress.
+Built, validated, and published are three separate numbers on purpose. The gap between the first two and the third is the publish train's remaining work: 531 tools. On November 1, 2026, the verified count was 51. Publish waves 20 to 27 moved it to 393, and waves 28 and 29 plus a single unit publish moved it to 482. A further publish wave is in progress.
 
 ## Published, by surface
 
-Each of the 393 published tools was verified on every surface below at its release closeout. The surfaces must agree with each other, or the tool does not count.
+Each of the 482 published tools was verified on every surface below at its release closeout. The surfaces must agree with each other, or the tool does not count.
 
 | Surface | Verified |
 |---|---|
-| GitHub source repository and release | 393 of 393 |
-| npm package, latest equal to release version | 393 of 393 |
-| GHCR container image, version and latest tags | 393 of 393 |
-| MCP Registry entry, active and latest, npm plus OCI | 393 of 393 |
-| Final verification pass | Passed, 393 of 393 |
+| GitHub source repository and release | 482 of 482 |
+| npm package, latest equal to release version | 482 of 482 |
+| GHCR container image, version and latest tags | 482 of 482 |
+| MCP Registry entry, active and latest, npm plus OCI | 482 of 482 |
+| Final verification pass | Passed, 482 of 482 |
 
-Final verification is a Shipcheck verdict of GO. Where Shipcheck itself could not render a verdict for a network reason, an independent verify-published ALL PASS read back on every surface closed the unit instead. Wave 27 closed 11 units that second way.
+Final verification is a Shipcheck verdict of GO. Where Shipcheck itself could not render a verdict for a network reason, an independent verify-published ALL PASS read back on every surface closed the unit instead. Wave 27 closed 11 units that second way. Waves 28 and 29 and the single unit publish that followed closed all 89 of their units with a Shipcheck verdict of GO.
 
 ## The wider fleet
 
@@ -57,8 +57,8 @@ Final verification is a Shipcheck verdict of GO. Where Shipcheck itself could no
 
 ## Where each figure comes from
 
-- Built and parity validated: the rebuild program scoreboard and build records (~/workspace/mcp-rebuild-100/SCOREBOARD.md, totals after reserve builds, November 2, 2026, and census after Wave 27, November 10, 2026).
-- Published and per surface verification: the publish train closeout records (~/workspace/mcp-rebuild-100/PUBLISH-WAVES.md, Wave 27 closeout, November 10, 2026).
+- Built and parity validated: the rebuild program scoreboard and build records (~/workspace/mcp-rebuild-100/SCOREBOARD.md, totals after reserve builds, November 2, 2026, and census after the linkledger single unit publish, November 16, 2026).
+- Published and per surface verification: the publish train closeout records (~/workspace/mcp-rebuild-100/PUBLISH-WAVES.md, Wave 29 closeout and linkledger single unit closeout, November 16, 2026).
 - Catalog: the ProdForge directory staging count recorded at the November 1, 2026 closeout.
 - npm liveness and downloads: the fleet traction report generated November 1, 2026 (TRACTION.md).
 - Policy index: the live Greenlight index totals (updated October 30, 2026) and the scan state file (November 1, 2026).
